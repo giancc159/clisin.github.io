@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Horarios</title>
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4">
+          
+          <div class="pull-left bg-default">
+            <img class="center-block img-rounded img-responsive" src="imagenes/Logo.jpg">
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-8">
+           <div class="pull-right bg-default">
+
+          <!-- <button type="button" class="btn btn-primary" id="facebook">facebook</button>-->
+          <a class="btn btn-primary" id="facebook" href="https://www.facebook.com/">facebook</a>
+          <a class="btn btn-primary" id="twitter" href="https://twitter.com/?lang=es/">Twitter</a>
+            
+          <!-- <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-phone-alt"></span>4255118</button>-->
+
+            <div class="btn-group">
+              <button type="button" class="btn btn-warning">458-9578</button>
+              <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-phone-alt"></span>
+              </button>
+          
+            </div>
+
+          </div>
+
+        </div>
+        
+
+      </div>
+    </div>
+  </header>
+
+
+
+  <nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+      <!--Encabezado de la barra de menu -->
+      <div class="navbar-header">
+      <!--para visualizacion en dispositivos moviles -->
+        <a href="#" class="navbar-brand"></a>
+        <!-- Boton para dispositivos moviles-->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#btn-colapsar">
+          <!--Iconos del cuadrado -->
+          <span class="sr-only">Navegacion</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+      </div>
+
+      <!--Elementos del Menu -->
+      <div class="collapse navbar-collapse" id="btn-colapsar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="laclinica.html">La Clinica</a></li>
+          <li><a href="especialidades.html">Especialidades</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          
+          <li><!--Desplegable-->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Programa de Salud <span class="caret"></span>
+            </a>
+            <!--Desglosable del Programa de Salud -->
+            <ul class="dropdown-menu">
+              <li><a href="babyHope.html">Baby Hope</a></li>
+              <li><a href="salud_ocupacional.html">Salud ocupacional</a></li>
+              
+            </ul>
+          </li>
+
+          <li><a href="serviciosonline.html">Servicios Online</a></li>
+          
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+    <div class="col-lg-8 col-lg-offset-2">
+      <div class="main-row">
+	
+<br>
+<div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="img-rounded" src="imagenes\imagen3.1.jpg" alt="">
+    </a>
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">MEDICOS</h4>
+    Dr: Carlos ____________
+    <h4>ESPECIALISTA: Medicina General</h4>
+  </div>
+</div>
+</div>
+
+<nav aria-label="Page navigation">
+  <ul class="pagination">
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        anterior</a> *03-09 abril* 
+    
+
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      siguiente</a>
+         
+  </ul>
+</nav>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>HORARIOS</th>
+      <th>LUNES</th>
+      <th>MARTES</th>
+      <th>MIERCOLES</th>
+      <th>JUEVES</th>
+      <th>VIERNES</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <th scope="row">8:00/9:00</th>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+    </tr>
+    <tr>
+      <th scope="row">9:00/10:00</th>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+    </tr>
+    <tr>
+      <th scope="row">10:00/11:00</th>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+    </tr>
+    <tr>
+     <th scope="row">11:00/12:00</th>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+    </tr>
+    <tr>
+      <th scope="row"></th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">2:00/3:00</th>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+    </tr>
+    <tr>
+      <th scope="row">3:00/4:00</th>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+    </tr>
+    <tr>
+      <th scope="row">4:00/5:00</th>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+    </tr>
+    <tr>
+      <th scope="row">5:00/6:00</th>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+      <td><a onclick="abrir()" class="list-group-item list-group-item-info">Disponible</a></td>
+    </tr>
+</div>
+		<script> function abrir(){
+			open('formularioAppop.html','','to p=500,left=500, width=500,height=700');}
+			
+		</script>
+</table>
+<nav aria-label="...">
+  <ul class="pager">
+    <li class="previous"><a href="serviciosonline.html"><span aria-hidden="true">&larr;</span>Atrás</a></li>
+    </ul>
+</nav>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+
+</body>
+</html>
+	

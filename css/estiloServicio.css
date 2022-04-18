@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.services {
+  position: relative;
+  overflow: hidden;
+  max-width: 250px;
+  max-height: 250px;
+  display: block;
+  margin: 40px auto;
+  border-radius: 180px;
+  top: -20px;
+}
+
+div.services:hover img {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+
+div.services:hover div.texto h2 {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+
+div.services:hover div.texto p {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
+div.services img {
+  position: relative;
+  display: block;
+ 
+  opacity: 0.7;
+  -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+          transform: translateX(0px);
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+}
+
+
+
+div.services div.texto {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2.2em;
+  color: yellow;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  text-shadow: 1px 1px black;
+}
+
+div.services div.texto h2 {
+  -webkit-transform: translateY(40px);
+      -ms-transform: translateY(40px);
+          transform: translateY(40px);
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+}
+
+div.services div.texto p {
+  text-align: center;
+  opacity: 0;
+  -webkit-transform: translateY(90px);
+      -ms-transform: translateY(90px);
+          transform: translateY(90px);
+  transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s, -webkit-transform 0.35s;
+}
+
+
+.boton{
+  position: relative;
+  top: -30px;
+}
+
+
+.redondear2{
+  height: 250px;
+  width: 250px;
+  border-radius: 200px;
+  
+}
+

@@ -1,0 +1,66 @@
+#facebook{
+	background: #3b5998;
+}
+
+#twitter{
+	background-color: #9ae4e8;
+	border-color: white;
+
+}
+
+.redondear{
+	background-color: #1AA8B4;
+	border-radius: 180px;
+}
+
+.letra{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.centrar{
+	text-align: center;
+}
+
+footer{
+	background-color:#0E6c93;
+}
+
+.resaltar:hover{
+	font-weight: bold;
+}
+
+.noborde{
+	border: none;
+}
+
+#centro{
+	background-color:#1AA8B4;
+	text-align: center;
+	padding: 50px;
+	border-radius: 360px;
+
+}
+
+.nomargen{
+
+	margin: 0;
+	padding: 0;	
+}
+
+/*Hacer Responsive el Iframe*/
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+

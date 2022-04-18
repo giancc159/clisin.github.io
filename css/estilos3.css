@@ -1,0 +1,107 @@
+/* CSS Document */
+body
+{
+	margin: 10px 10px 10px 10px;
+  font-family:Verdana, Geneva, sans-serif;
+	padding: 0;
+}
+
+h1 {
+	
+	font-size:42px;
+	color:#666;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  top: -50px;
+  text-align: center;
+}
+
+hr {
+  position: relative;
+  top: 7px;
+}
+
+p {
+  padding-top: 0px;
+  color:black;
+  position: relative;
+  top: -50px;
+  : 0px;
+}
+
+.link {
+  float:right;
+  margin-top: 8px;
+}
+
+.slide-container {
+  width: 1155px;
+  margin-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color:blue;
+  padding: 5px;
+
+}
+
+.slide {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:darkblue;
+  width:1155px;
+  height: 725px;
+  /*border:1px solid;*/
+
+  padding:30px;
+  text-align: left;
+  /*border: solid 3px;*/
+  margin-top: 5px;
+
+  overflow: hidden;
+}
+
+.edit-mode-tag {
+  position: relative;
+  top: -17px;
+}
+
+.edit-mode-checkbox {
+  position: relative;
+  top: -20px;
+
+}
+
+.gui-select {
+  position: relative;
+  top: 2px;
+}
+.gui-button {
+  position: relative;
+  top:-3px;
+  margin-left: 20px;
+}
+
+.edit-gui input{
+  width: 1000px;
+  padding-bottom: 20px;
+}
+
+.edit-gui textarea{
+  width: 1000px;
+  height: 300px;
+}
+
+/* ANIMATIONS */
+.fade-show-setup {
+  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.66s;
+  -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.66s;
+  -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.66s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.66s;
+  
+  opacity:0;
+}
+.fade-show-setup.fade-show-start {
+  opacity:1;
+}
+
